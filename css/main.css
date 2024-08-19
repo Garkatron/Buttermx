@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    background-color: rgb(17, 17, 17);
+    color: rgb(238, 222, 203);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.helpList {
+    list-style: circle;
+}
+
+.resultCommand {
+    display: flex;
+    background-color: transparent;
+    margin-bottom: 5px;
+    padding: 8px;
+    transition: 0.5s;
+
+}
+
+.resultError {
+    background-color: rgb(189, 27, 27);
+}
+
+.resultCommand:hover {
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.command {
+    background-color: transparent;
+    transition: 0.5s;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+
+.command:hover {
+    box-shadow: 0px 0px 22px 6px wheat;
+    transition: 0.5s;
+}
+
+#commandInput {
+    outline: none;
+    display: flex;
+    /* Centra horizontalmente */
+    height: 30px;
+    min-width: 5cm;
+
+    position: absolute;
+    bottom: 0%;
+
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 1px wheat;
+}
+
+#commandInput:focus {
+    outline: none;
+    transform: translateY(-20px);
+    transition: 0.5s;
+
+}
+
+#cmdInpContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    overflow-y: scroll;
+    font-family: monospace;
+    white-space: pre;
+}
+
+#container::-webkit-scrollbar {}
