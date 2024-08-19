@@ -1,6 +1,6 @@
 import { Commands, Command } from "./Commands.js";
 import { CLIError } from "./CLIError.js";
-import { Message, messages } from "./message.js";
+import { Message, messages } from "./Message.js";
 
 // Talvez, hubiera sido mejor hacer esto de otra forma.
 
