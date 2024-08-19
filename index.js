@@ -1,4 +1,4 @@
-import { CommandLine } from "/js/objects/CLI.js";
+import { CommandLine } from "/js/CLI.js";
 
 document.addEventListener("DOMContentLoaded", (event) => {
     const bash = new CommandLine(false, document.getElementById("container"))
